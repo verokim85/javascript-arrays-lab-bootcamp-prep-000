@@ -41,7 +41,7 @@ function removeLastKitten() {
 }
 
 function removeFirstKitten() {
-  varbKitten = [...kittens]
+  var bKitten = [...kittens]
   bKitten.shift()
   return bKitten
 }
