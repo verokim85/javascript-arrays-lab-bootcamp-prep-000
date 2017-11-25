@@ -33,3 +33,5 @@ function prependKitten(name){
   newkitten.unshift(name)
   return newkitten
 }
+
+function removeLastKitten()
