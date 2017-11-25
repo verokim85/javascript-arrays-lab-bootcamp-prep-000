@@ -4,3 +4,7 @@ function destructivelyAppendKitten(name) {
   name.push('Ralph');
   return name;
 }
+
+function destructivelyPrependKitten(name) {
+  
+}
