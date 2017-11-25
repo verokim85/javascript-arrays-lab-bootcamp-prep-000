@@ -45,3 +45,7 @@ function removeFirstKitten() {
   bKitten.shift()
   return bKitten
 }
+
+function appendKitten(name) {
+
+}
