@@ -39,3 +39,9 @@ function removeLastKitten() {
   aKitten.pop()
   return aKitten
 }
+
+function removeFirstKitten() {
+  varbKitten = [...kittens]
+  bKitten.shift()
+  return bKitten
+}
