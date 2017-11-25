@@ -47,5 +47,7 @@ function removeFirstKitten() {
 }
 
 function appendKitten(name) {
-
+  var cKitten = [...kittens]
+  cKitten.push(name)
+  return cKitten
 }
